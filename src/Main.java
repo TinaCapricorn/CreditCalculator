@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        creditPaymentService service = new creditPaymentService();
+        CreditPaymentService service = new CreditPaymentService();
         int creditSum = 1_000_000;
         int creditTime = 36;
         int monthCreditPay = service.calculate(creditSum, creditTime);
